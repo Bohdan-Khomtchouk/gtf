@@ -4,4 +4,4 @@ language: r
 r: bioc-devel
 cache: packages
 warnings_are_errors: true
-sudo: required
+sudo: false
