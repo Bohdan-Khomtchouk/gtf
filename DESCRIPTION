@@ -1,0 +1,16 @@
+Package: gtf
+Type: Package
+Title: Gene transfer format files for common model organisms
+Version: 0.99.0
+Depends:
+    R (>= 3.2.3)
+Date: 2016-05-12
+Authors@R: person("Bohdan", "Khomtchouk", email = "khomtchoukmed@gmail.com", role = c("aut", "cre"))
+Maintainer: Bohdan Khomtchouk <khomtchoukmed@gmail.com>
+Description: Provides gene sets for commonly studied model organisms. These
+    files include annotations of both coding and non-coding genes. The .gtf file
+    format is described here: \url{http://www.gencodegenes.org/gencodeformat.html}.
+Citation: Citation (from within R, enter citation("gtf")): Khomtchouk B (2016). gtf: Gene transfer format files for common model organisms. R package version 0.99.0.
+License: GPL (>= 3)
+LazyData: TRUE
+RoxygenNote: 5.0.1

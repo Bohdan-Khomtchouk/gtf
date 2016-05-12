@@ -1,0 +1,18 @@
+citHeader("To cite gtf in publications use:")
+
+citEntry(entry = “Article”,
+	title	   = "gtf: Gene transfer format files for common model organisms",
+	author	   = personList(as.person("Bohdan Khomtchouk"), as.person("Claes Wahlestedt")),
+	journal    = "TBA",
+	year       = "2016",
+	volume     = "TBA",
+	number     = "R package version 0.99.0",
+	pages      = "TBA--TBA",
+	url        = "TBA",
+	
+	textVersion = 
+	paste("Bohdan Khomtchouk, Claes Wahlestedt (2016).",
+		  "gtf: Gene transfer format files for common model organisms.",
+		  "TBA, TBA(TBA), TBA-TBA.",
+		  "URL http://www.TBA.org/TBA/TBA.")
+	)

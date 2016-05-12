@@ -1,0 +1,7 @@
+# Sample .travis.yml for R projects
+
+language: r
+r: bioc-devel
+cache: packages
+warnings_are_errors: true
+sudo: required
