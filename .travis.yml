@@ -8,6 +8,3 @@ r: bioc-devel
 cache: packages
 warnings_are_errors: true
 sudo: false
-install:
-  - Rscript -e 'install.packages(c("devtools"))'
-  - Rscript -e 'devtools::install_github("Bohdan-Khomtchouk/gtf")'
