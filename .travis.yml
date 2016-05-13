@@ -1,7 +1,13 @@
-# Sample .travis.yml for R projects
+# .travis.yml for r-travis.
+#
+# If you're looking to use r-travis with your project, DO NOT USE THIS
+# FILE -- use `sample.travis.yml` instead.
 
 language: r
 r: bioc-devel
 cache: packages
 warnings_are_errors: true
 sudo: false
+install:
+  - Rscript -e 'install.packages(c("devtools"))'
+  - Rscript -e 'devtools::install_github("Bohdan-Khomtchouk/gtf")'
