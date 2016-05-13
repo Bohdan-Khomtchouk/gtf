@@ -9,3 +9,7 @@ You can install the current GitHub version using the [devtools](https://github.c
 ```R
 devtools::install_github("Bohdan-Khomtchouk/gtf")
 ```
+And then:
+```R
+library(gtf)
+```
