@@ -1,5 +1,4 @@
 [![Travis-CI Build Status](https://travis-ci.org/Bohdan-Khomtchouk/gtf.svg?branch=master)](https://travis-ci.org/Bohdan-Khomtchouk/gtf)
-[![Coverage Status](https://coveralls.io/repos/github/Bohdan-Khomtchouk/gtf/badge.svg?branch=master)](https://coveralls.io/github/Bohdan-Khomtchouk/gtf?branch=master)
 [![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 # gtf
 
