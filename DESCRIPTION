@@ -11,6 +11,8 @@ Description: Provides gene sets for commonly investigated model organisms in ChI
     files include annotations of both coding and non-coding genes. The .gtf file
     format is described here: \url{http://www.gencodegenes.org/gencodeformat.html}.
 Citation: Citation (from within R, enter citation("gtf")): Khomtchouk B (2016). gtf: Gene transfer format files for common ChIP-seq model organisms. R package version 0.99.0.
+URL: https://github.com/Bohdan-Khomtchouk/gtf
+BugReports: https://github.com/Bohdan-Khomtchouk/gtf/issues
 License: MIT
 LazyData: TRUE
 RoxygenNote: 5.0.1
