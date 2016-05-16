@@ -1,6 +1,6 @@
 citHeader("To cite gtf in publications use:")
 
-citEntry(entry = Article”,
+citEntry(entry = "Article",
 	title	   = "gtf: Gene transfer format files for common model organisms",
 	author	   = personList(as.person("Bohdan Khomtchouk"), as.person("Claes Wahlestedt")),
 	journal    = "TBA",

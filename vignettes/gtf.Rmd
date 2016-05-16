@@ -1,0 +1,29 @@
+---
+title: "gtf"
+author: "Bohdan B. Khomtchouk"
+date: "`r Sys.Date()`"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{gtf}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8](inputenc)
+---
+
+`gtf` is an annotation package that provides gene transfer format files for commonly investigated model organisms in ChIP-seq studies. These files include annotations of both coding and non-coding genes. 
+
+Currently supported organisms in the `gtf` package include: 
+
+1) Mouse (Mus_musculus.GRCm38.84.gtf)
+2) Rat (Rattus_norvegicus.Rnor_6.0.82.gtf)
+3) Worm (Caenorhabditis_elegans.WBcel235.84.gtf)
+4) Fly (Drosophila_melanogaster.BDGP6.84.gtf)
+5) Frog (Xenopus_tropicalis.JGI_4.2.84.gtf)
+6) Yeast (Saccharomyces_cerevisiae.R64-1-1.84.gtf)
+
+The .gtf file format is described here: \url{http://www.gencodegenes.org/gencodeformat.html}.  For more information on a specific organism:
+
+```{r}
+library(gtf)
+?worm
+```
+
