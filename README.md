@@ -11,6 +11,7 @@ R data package that provides gene transfer format files for commonly investigate
 
 You can install the current GitHub version using the [devtools](https://github.com/hadley/devtools) package and the following command in R:
 ```R
+if (!require("devtools")) install.packages("devtools")
 devtools::install_github("Bohdan-Khomtchouk/gtf")
 ```
 And then:
