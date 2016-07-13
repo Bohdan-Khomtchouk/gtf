@@ -18,3 +18,31 @@ And then:
 ```R
 library(gtf)
 ```
+
+Note: Certain older version of R may (or may not) prompt you that:
+
+```R
+> install_github("Bohdan-Khomtchouk/gtf")
+Downloading GitHub repo Bohdan-Khomtchouk/gtf@master
+from URL https://api.github.com/repos/Bohdan-Khomtchouk/gtf/zipball/master
+Installing gtf
+‘BiocInstaller’ must be installed for this functionality.
+Would you like to install it?
+
+1: Yes
+2: No
+
+Selection: 1
+Error in loadNamespace(name) : there is no package called ‘BiocInstaller’
+In addition: Warning message:
+package ‘BiocInstaller’ is not available (for R version 3.2.1) 
+```R
+
+In such cases, first do:
+
+```R
+source("http://bioconductor.org/biocLite.R")
+biocLite("BiocInstaller")
+```R
+
+
