@@ -19,7 +19,8 @@ And then:
 library(gtf)
 ```
 
-Note: Certain older version of R may (or may not) prompt you that:
+### Troubleshooting
+Note: Certain older versions of R may prompt you that:
 
 ```R
 > install_github("Bohdan-Khomtchouk/gtf")
@@ -36,13 +37,13 @@ Selection: 1
 Error in loadNamespace(name) : there is no package called ‘BiocInstaller’
 In addition: Warning message:
 package ‘BiocInstaller’ is not available (for R version 3.2.1) 
-```R
+```
 
 In such cases, first do:
 
 ```R
 source("http://bioconductor.org/biocLite.R")
 biocLite("BiocInstaller")
-```R
+```
 
 
