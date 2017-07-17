@@ -5,7 +5,7 @@
 
 R data package that provides gene transfer format files for commonly investigated model organisms in ChIP-seq studies.  These files include annotations of both coding and non-coding genes. The .gtf file format is described here: http://www.gencodegenes.org/gencodeformat.html.  
 
-`gtf` is currently used by at least one existing R package: `geneXtendeR`. 
+`gtf` is no longer under active development and is deprecated.  Please use `rtracklayer::readGFF()` instead (from Bioconductor).  
 
 ### Installation instructions
 
@@ -36,7 +36,7 @@ Would you like to install it?
 Selection: 1
 Error in loadNamespace(name) : there is no package called ‘BiocInstaller’
 In addition: Warning message:
-package ‘BiocInstaller’ is not available (for R version 3.2.1) 
+package ‘BiocInstaller’ is not available (for R version 3.2.1)
 ```
 
 In such cases, first do:
@@ -45,5 +45,3 @@ In such cases, first do:
 source("http://bioconductor.org/biocLite.R")
 biocLite("BiocInstaller")
 ```
-
-
